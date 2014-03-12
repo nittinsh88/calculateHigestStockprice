@@ -1,0 +1,19 @@
+package globalLogic;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestClass {
+
+	@Test
+	public void test() {
+		 
+		PrintHigestStockPrice tester = new PrintHigestStockPrice();
+		   
+		   // check if multiply(10,5) returns 50
+		   assertEquals("Must b Compan C", "companyD", tester.calculateHigestPrice());
+		
+	}
+
+}
